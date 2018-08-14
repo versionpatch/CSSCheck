@@ -1,0 +1,77 @@
+.header
+{
+    background-image:url("https://picsum.photos/800/450/?random");
+    background-repeat: no-repeat;
+    height:450px;
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    padding:50px;
+    box-sizing: border-box;
+}
+#HeaderText
+{
+    font-family: "Georgia", Times, serif;
+    text-shadow: 2px 2px #333333;
+    font-size:80px;
+    color:#ffffff;
+    text-decoration: black;
+    position:relative;
+    top:150px;
+    
+}
+
+.content
+{
+    padding-left:160px;
+    padding-right:160px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+#section
+{
+    font-family: "Georgia", Times, serif;
+    text-shadow: 2px 2px #333333;
+    font-size:60px;
+    color:#181849;
+    text-decoration: black;
+}
+
+.box,.box2
+{
+    width:45%;
+    height:250px;
+    padding:10px;
+    margin-top:5px;
+    display:inline-block;
+}
+.box
+{
+    background-color:#b4b3b3;
+    color:#333333;
+}
+.box2
+{
+    background-color:#444444;
+    color:#eeeeee;
+}
+
+.box:hover,.box2:hover
+{
+    border: 2px black solid;
+}
+
+.boxText
+{
+    padding-left:10px;
+    font-family: "Georgia", Times, serif;
+    font-size:30px;
+    text-decoration: black;
+}
+
+p{
+    font-family: "Georgia", Times, serif;
+    font-size:15px;
+    padding-left:10px;
+}
